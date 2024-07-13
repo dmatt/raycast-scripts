@@ -14,7 +14,7 @@ This repository contains a collection of script commands for Raycast. These scri
 
 ### [LLaMa](llama-script-command.sh)
 
-- **Description**: Takes input from the clipboard, invokes a Python script to process it using Llama 3 via Ollama REST API, and outputs the result back to where your cursor was before you stared the script.
+- **Description**: Takes input from the clipboard, and sends it as a prompt to Llama 3 via Ollama REST API, and outputs the result back to where your cursor was before you stared the script.
 - **Mode**: Silent
 - **Icon**: 🦙
 - **Package Name**: Raycast Scripts

@@ -2,8 +2,8 @@
 
 # Raycast Script Command
 #
-# Takes input from the clipboard, invokes a Python script to process it using Llama 3 via
-# Ollama REST API, and outputs the result back to where your cursor was before you stared the script.
+# Takes input from the clipboard, and sends it as a prompt to Llama 3 via Ollama REST API, and
+# outputs the result back to where your cursor was before you stared the script.
 #
 # Required parameters:
 # @raycast.schemaVersion 1
