@@ -14,7 +14,7 @@ This repository contains a collection of script commands for Raycast. These scri
 
 ### [LLaMa](llama-script-command.sh)
 
-- **Description**: Takes input from the clipboard, invokes a Python script to process it using LLaMa, and outputs the result directly in the Raycast interface.
+- **Description**: Takes input from the clipboard, invokes a Python script to process it using Llama 3 via Ollama REST API, and outputs the result back to where your cursor was before you stared the script.
 - **Mode**: Silent
 - **Icon**: 🦙
 - **Package Name**: Raycast Scripts
@@ -43,5 +43,6 @@ To use these scripts with Raycast:
 3. Click on the "+" button to add a new script command.
 4. Select "Add Script Directory" and choose the cloned repository folder.
 5. The scripts should now be available for use within Raycast.
+6. There are various settings in each script that are configured for the author's environment. You may need to adjust these settings to work in your environment.
 
 For more information on how to use or contribute to this repository, please refer to the official Raycast documentation: [https://github.com/raycast/script-commands](https://github.com/raycast/script-commands).
