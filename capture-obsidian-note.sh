@@ -39,7 +39,7 @@ fi
 # Append the special text with the current date to TEXT
 TEXT="${TEXT}
 
-#raycast-capture ${CURRENT_DATE}"
+[[from raycast]] ${CURRENT_DATE}"
 
 # Define the Obsidian Vault path
 VAULT_PATH="/Users/danielmatteson/Library/Mobile Documents/iCloud~md~obsidian/Documents/SecondBrain/"
