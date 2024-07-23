@@ -9,7 +9,7 @@
 # @raycast.icon 🪲
 
 # Documentation:
-# @raycast.description In a browser, run a "macro" that does shift+command+G, clicks on the element with selector "#app > div > div.flex-auto.p1.overflow-auto > div" and then clicks inside the textarea with the selector "#fldiV2uiS0g75NfzU" and then pastes what is currently into the clipboard there.
+# @raycast.description This script runs a macro in a browser that performs shift+command+G (set this Web Clipper shortcut at chrome://extensions/shortcuts), pastes the clipboard into the form, and submits.
 # @raycast.author daniel_matteson
 # @raycast.authorURL https://raycast.com/daniel_matteson
 
