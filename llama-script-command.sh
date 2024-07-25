@@ -40,8 +40,5 @@ fi
 # Copy the output to the clipboard
 echo "$OUTPUT" | pbcopy
 
-# Escape double quotes and backslashes in $OUTPUT
-ESCAPED_OUTPUT=$(echo "$OUTPUT" | sed 's/\\/\\\\/g' | sed 's/\"/\\\"/g')
-
-# Use osascript to simulate typing the output at the current cursor location
-osascript -e "tell application \"System Events\" to keystroke \"$ESCAPED_OUTPUT\""
+# Use osascript to simulate pasting the output at the current cursor location
+osascript -e 'tell application "System Events" to keystroke "v" using command down'
